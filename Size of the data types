@@ -1,0 +1,14 @@
+#include<iostream>
+using std::cout;
+int main()
+{
+int a;
+char ch;
+float b;
+double c;
+cout<<"size of integer is "<<sizeof(a)<<"\n";
+cout<<"size of character is "<<sizeof(ch)<<"\n";
+cout<<"size of float is "<<sizeof(b)<<"\n";
+cout<<"size of double is "<<sizeof(c)<<"\n";
+return 0;
+}
